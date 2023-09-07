@@ -79,7 +79,7 @@ export const textChoices = [
                 text: 'Ta livet av dig',
                 requiredState: (currentState) => currentState.depression,
                 setState: { depression: false, död: true },
-                nextText: -1
+                nextText: 16
             },
             {
                 text: 'Du har tur och vinner lotto',
@@ -142,6 +142,18 @@ export const textChoices = [
         id: 11,
         text: "Normal ending\
         \n Du har valt att gå en decent utbildning och har kommit in i jobbar livet du kommer leva ett normalt liv.",
+        options: [
+            {
+                text: 'restart',
+                setState: {},
+                nextText: -1
+            },
+        ]
+    },
+    {
+        id: 16,
+        text: "Bad ending\
+        \n Du klarade inte av studerandet",
         options: [
             {
                 text: 'restart',
