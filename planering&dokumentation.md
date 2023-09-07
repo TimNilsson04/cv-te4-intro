@@ -10,4 +10,5 @@ I det här exemplet så kommer man kunna göra val där utbildningen för hvudka
 
 vecka 36 \
 onsdag: Jag hittade en bra grundkod för ett äventyrspel som jag använde som grund för att skapa mitt eget spel för CV äventyret. Nästa gång så tänker jag forsätta med historian och förbättra css på hemsidan.\
-Torsdag:
+
+Torsdag: Idag så har jag jobbat på historian för det mesta. Sedan fixade jag några endings för äventyret. Som sist så skapade jag en 50/50 ending där man har chansen att få bästa endingen eller sämsta endingen.
