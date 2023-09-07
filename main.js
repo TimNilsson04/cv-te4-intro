@@ -42,7 +42,7 @@ function selectOption(option) {
 }
 
 function random(){
-  if(getRandomNumber(2) == 0){
+  if(Math.random() < 0.5){
     return true
   } else{
     return false
@@ -158,7 +158,7 @@ const textChoices = [
         requiredState: (currentState) => currentState.pengar,
         requiredState: (currentState) => currentState.super_glad,
         setState: { pengar: false, super_glad: false, super_duper_glad: true },
-        nextText: 6
+        nextText: 9
       },
       {
         text: 'Köp ingen rulle',
@@ -208,44 +208,6 @@ const textChoices = [
     ]
   },
   {
-    id: 5,
-    text: "Tim har alltid haft ett stort intresse i att fiska så han vill lägga ner pengar på ett nytt fiske spö och rulle. \
-    \n Vad väljer Tim att göra?",
-    options: [
-      {
-        text: 'Köp spö och rulle med volvo pengar',
-        requiredState: (currentState) => currentState.pengar,
-        requiredState: (currentState) => currentState.utbildning_teknik,
-        setState: { pengar: false, mindre_pengar: true },
-        nextText: 6
-      },
-      {
-        text: 'Köp spö och rulle med lotto pengar',
-        requiredState: (currentState) => currentState.pengar,
-        requiredState: (currentState) => currentState.super_glad,
-        setState: { pengar: false, super_glad: false, super_duper_glad: true },
-        nextText: 9
-      },
-      {
-        text: 'Köp ingen rulle',
-        setState: {},
-        nextText: 6
-      },
-      {
-        text: 'Vara hemma i sängen och gråta',
-        requiredState: (currentState) => currentState.depression,
-        setState: { depression: false, suicidal: true },
-        nextText: 6
-      },
-      {
-        text: 'Du väljer att använda din höga utbildning för att manipulera butiken till att ge dig fiskespö?',
-        requiredState: (currentState) => currentState.Mycket_bra_utbildning,
-        setState: { depression: false },
-        nextText: 6
-      },
-    ]
-  },
-  {
     id: 9,
     text: "Du har haft lady luck på din sida under hela ditt liv men nu finns det ett val som kommer avgör hela ditt liv\
     Vad väljer Tim?",
@@ -253,7 +215,24 @@ const textChoices = [
       {
         // chans att få bästa slutet eller att dö direkt, if(getRandomInt(2) == 0 {Bästa ending}
         text: '50/50',
-        setState: {/* best_ending: random() */ },
+        setState: {best_ending: random()},
+        nextText: 10
+      },
+    ]
+  },
+  {
+    id: 10,
+    text: "",
+    options: [
+      {
+        text: 'best ending',
+        requiredState: (currentState) => currentState.best_ending,
+        setState: {},
+        nextText: 10
+      },
+      {
+        text: 'worst ending',
+        setState: {},
         nextText: 10
       },
     ]
