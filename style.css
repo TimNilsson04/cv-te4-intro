@@ -46,8 +46,11 @@ h1 {
   text-align: center;
 }
 
-.container{
-
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin-top: 20px;
 }
 
 .logo {
