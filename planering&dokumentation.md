@@ -9,4 +9,5 @@ I det här exemplet så kommer man kunna göra val där utbildningen för hvudka
 <br/><br/>
 
 vecka 36 \
-onsdag: Jag hittade en bra grundkod för ett äventyrspel som jag använde som grund för att skapa mitt eget spel för CV äventyret. Nästa gång så tänker jag forsätta med historian och förbättra css på hemsidan.
+onsdag: Jag hittade en bra grundkod för ett äventyrspel som jag använde som grund för att skapa mitt eget spel för CV äventyret. Nästa gång så tänker jag forsätta med historian och förbättra css på hemsidan.\
+Torsdag:
