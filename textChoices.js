@@ -1,12 +1,3 @@
-var number
-function numberRandom() {
-    if (Math.random() < 0.5) {
-        number = 13
-    } else {
-        number = 14
-    }
-    return number
-}
 
 // Koden nedan används för att avgöra vilka val man gör och hur valen kommer avgöra historians riktning.
 export const textChoices = [
@@ -24,7 +15,7 @@ export const textChoices = [
             {
                 text: 'Börja Natur på Maja Beskow gymnasiet',
                 setState: { natur: true },
-                nextText: 2
+                nextText: 3
             }
         ]
     },
@@ -90,7 +81,7 @@ export const textChoices = [
             {
                 text: 'Du väljer att plugga under sommaren',
                 requiredState: (currentState) => currentState.utbildning_natur,
-                setState: { utbildning_natur: false, Mycket_bra_utbildning: true },
+                setState: {Mycket_bra_utbildning: true },
                 nextText: 5
             },
             {
@@ -165,7 +156,7 @@ export const textChoices = [
     {
         id: 12,
         text: "Business ending\
-        \n Därför du aldrig gav upp med ding utbildning och blev en mäster manipulerare så blev du extra bra vid skapande av ett företag\
+        \n Därför du aldrig gav upp med ding utbildning och blev en mäster manipulerare så blev du extra bra vid skapande av ett företag.\
         \n Du fick en bra start som ledde till att ditt företag ligger top 10 i världen.",
         options: [
             {
@@ -189,7 +180,7 @@ export const textChoices = [
             {
                 text: 'Jag vill inte',
                 setState: {},
-                nextText: 7
+                nextText: 15
             }
 
         ]
@@ -218,7 +209,6 @@ export const textChoices = [
                 // chans att få bästa slutet eller att dö direkt, if(getRandomInt(2) == 0 {Bästa ending}
                 text: '50/50',
                 setState: {},
-                nextText: numberRandom()
             },
         ]
     },
@@ -246,5 +236,46 @@ export const textChoices = [
             },
         ]
     },
-
+    {
+        id: 15,
+        text: "NEJ GÖR DET NU!",
+        options: [
+            {
+                text: 'Kör russian roulette',
+                setState: {},
+            },
+        ]
+    },
+    {
+        id: 17,
+        text: "GUD SÅ TUR DU HAR\
+        \n säger Tim's röster",
+        options: [
+            {
+                text: 'Kör russian roulette',
+                setState: {},
+            },
+        ]
+    },
+    {
+        id: 18,
+        text: "NEJ ASSÅ NU GER JAG DIG EN REVOLVER MED FEM SKOTT",
+        options: [
+            {
+                text: 'Kör russian roulette',
+                setState: {},
+            },
+        ]
+    },
+    {
+        id: 19,
+        text: "Om du har klarat dig ända hit så förtjänar du bästa ending.",
+        options: [
+            {
+                text: 'You deserve it',
+                setState: {},
+                nextText: 13
+            },
+        ]
+    },
 ]
