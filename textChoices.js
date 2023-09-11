@@ -3,9 +3,9 @@
 export const textChoices = [
     {
         id: 1,
-        text: "Detta CV är en samling av Tim's historier. \n Allting började med skolan, Tim har alltid gått skolan med när det kom till högstadiet så var det ett mycket viktigt val man behövde göra som skulle avgöra hela livets gång.\
-      \n Det viktiga som pratas om är valet av vilket gymnasie och vilken linje han skall gå. Tim har alltid varit mycket intresserad av teknik och kemi som liten och så ett val mellan teknik linjen och naturlinjen en självklarhet. \
-      \n Vad väljer du att göra?",
+        text: "Detta CV är en samling av Tim's historier. Allting började med skolan, Tim har alltid gått skolan med när det kom till högstadiet så var det ett mycket viktigt val man behövde göra som skulle avgöra hela livets gång.\
+       Det viktiga som pratas om är valet av vilket gymnasie och vilken linje han skall gå. Tim har alltid varit mycket intresserad av teknik och kemi som liten och så ett val mellan teknik linjen och naturlinjen en självklarhet. \
+       \nVad väljer du att göra?",
         options: [
             {
                 text: 'Börja Teknik på NTI gymnasiet',
@@ -22,8 +22,8 @@ export const textChoices = [
     {
         id: 2,
         text: "Tim var en ung student med en passion för teknik som beslutade sig för att gå på tekniklinjen på gymnasiet. Han hade alltid varit nyfiken av sig och älskade att plocka isär gamla elektronikprylar hemma för att se hur de fungerade. \
-      \n Hans föräldrar hade alltid uppmuntrat hans intresse för teknik och hade till och med omvandlat källaren till ett slags teknikverkstad för honom. Men till slut så kom det fruktade andra året med matte 4 och då behövde Tim göra något åt detta.\
-      \n Vad gör Tim?",
+       Hans föräldrar hade alltid uppmuntrat hans intresse för teknik och hade till och med omvandlat källaren till ett slags teknikverkstad för honom. Men till slut så kom det fruktade andra året med matte 4 och då behövde Tim göra något åt detta.\
+     \nVad gör Tim?",
         options: [
             {
                 text: 'Fokuserar extra hårt på matten',
@@ -40,8 +40,8 @@ export const textChoices = [
     {
         id: 3,
         text: "På naturvetenskapslinjen på gymnasiet hade Tim möjlighet att fördjupa sin förståelse för fysik, kemi, biologi och geologi. Han kunde äntligen utforska vetenskapen bakom de fenomen som alltid hade fascinerat honom.\
-      \n Men det Tim inte visste var att biologin på den här linjen skulle vara extra svår.\
-      \n Vad väljer Tim att göra?",
+       Men det Tim inte visste var att biologin på den här linjen skulle vara extra svår.\
+       \nVad väljer Tim att göra?",
         options: [
             {
                 text: 'Fokuserar extra hårt på biologin',
@@ -58,7 +58,7 @@ export const textChoices = [
     {
         id: 4,
         text: "Nu har Tim kommit förbi andra året på gymnasiet och har äntligen fått sommarlov. Men Tim känner inte att han vill bara ta det lugnt utan han vill sommarjobba.\
-      \n Vilket jobb väljer han?",
+       \nVilket jobb väljer han?",
         options: [
             {
                 text: 'Jobba på volvo',
@@ -94,7 +94,7 @@ export const textChoices = [
     {
         id: 5,
         text: "Tim har alltid haft ett stort intresse i att fiska så han vill lägga ner pengar på ett nytt fiske spö och rulle. \
-      \n Vad väljer Tim att göra?",
+       \nVad väljer Tim att göra?",
         options: [
             {
                 text: 'Köp spö och rulle med volvo pengar',
