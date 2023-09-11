@@ -64,21 +64,27 @@ function showTextChoice(textChoiceIndex) {
       if(textChoice.id == 15){option.nextText = russianRoulette()}
       if(textChoice.id == 17){option.nextText = svårRussianRoulette()}
       if(textChoice.id == 18){option.nextText = svårasteRussianRoulette()}
+      if(textChoice.id == 1){document.body.style.backgroundColor = "#242424"}
       if(textChoice.id == 14 || textChoice.id == 16){button.style.backgroundImage="url('/banana.gif')"
     button.style.height = "400px"
-    button.style.width = "350px"}
+    button.style.width = "350px"
+    document.body.style.backgroundColor = "red"}
     if(textChoice.id == 8 ){button.style.backgroundImage="url('/voices.gif')"
     button.style.height = "550px"
-    button.style.width = "600px"}
+    button.style.width = "600px"
+    document.body.style.backgroundColor = "black"}
     if(textChoice.id == 13 ){button.style.backgroundImage="url('/happyCat.gif')"
     button.style.height = "550px"
-    button.style.width = "600px"}
+    button.style.width = "600px"
+    document.body.style.backgroundColor = "green"}
     if(textChoice.id == 12 ){button.style.backgroundImage="url('/laserCat.gif')"
     button.style.height = "370px"
-    button.style.width = "200px"}
+    button.style.width = "200px"
+    document.body.style.backgroundColor = "crimson"}
     if(textChoice.id == 11 ){button.style.backgroundImage="url('/bellyCat.gif')"
     button.style.height = "550px"
-    button.style.width = "600px"}
+    button.style.width = "600px"
+    document.body.style.backgroundColor = "blue"}
       button.innerText = option.text
       button.classList.add('btn')
       button.addEventListener('click', () => selectOption(option))

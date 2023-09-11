@@ -63,7 +63,7 @@ export const textChoices = [
             {
                 text: 'Jobba på volvo',
                 requiredState: (currentState) => currentState.utbildning_teknik,
-                setState: { pengar: true },
+                setState: { volvo_pengar: true },
                 nextText: 5
             },
             {
@@ -98,8 +98,7 @@ export const textChoices = [
         options: [
             {
                 text: 'Köp spö och rulle med volvo pengar',
-                requiredState: (currentState) => currentState.pengar,
-                requiredState: (currentState) => currentState.utbildning_teknik,
+                requiredState: (currentState) => currentState.volvo_pengar,
                 setState: { pengar: false, mindre_pengar: true },
                 nextText: 11
             },
@@ -190,7 +189,7 @@ export const textChoices = [
         text: "You got a bad ending.\
       \n The depression ending\
       \n I den här avslutningen så valde du att plugga hårt i skolan som led till depression och jobbade direkt efter på volvo och sedan gav upp.\
-      \n detta ledde till att du var hemma hela tiden och gjorde ingenting med ditt liv tills du började höra röster som gjorde att du tog självmord",
+      detta ledde till att du var hemma hela tiden och gjorde ingenting med ditt liv tills du började höra röster som gjorde att du tog självmord",
         options: [
             {
                 text: 'restart',
