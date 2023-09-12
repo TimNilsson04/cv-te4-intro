@@ -14,3 +14,6 @@ Onsdag: Jag hittade en bra grundkod för ett äventyrspel som jag använde som g
 Torsdag: Idag så har jag jobbat på historian för det mesta. Sedan fixade jag några endings för äventyret. Som sist så skapade jag en 50/50 ending där man har chansen att få bästa endingen eller sämsta endingen.\
 
 Fredag: Jag har fixat endings på äventyret och försökat lite av historian men nu är allting typ klart. Man skulle kunna fixa css på hemsidan mycket mer men koden och historian är egentligen klart.
+
+Vecka 37 \
+Tisdag förmiddag: Jag har lagt till sparfunktion vid nedstängande av hemsidan som just nu sparar vart du är. Men nu måste jag fixa så att den sparar valen man gjort.
