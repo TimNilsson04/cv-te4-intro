@@ -33,7 +33,6 @@ body {
   align-items: center;
   min-width: 320px;
   min-height: 100vh;
-  
 }
 
 .margin{
@@ -78,9 +77,21 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-  margin-left: 35rem;
-  margin-right: 35rem;
+
+  
 }
+
+@media (min-width: 780px) {
+  button{
+    margin-left: 35rem;
+    margin-right: 35rem;
+  }
+  .margin{
+    margin-left: 35rem;
+    margin-right: 35rem;
+  }
+}
+
 button:hover {
   border-color: #646cff;
 }
@@ -89,15 +100,4 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+
