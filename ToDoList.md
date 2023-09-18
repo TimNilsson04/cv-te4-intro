@@ -1,0 +1,1 @@
+Fixa lagringen, man måste alltid börja på textChoice 1 i början
