@@ -47,7 +47,7 @@ function svårasteRussianRoulette() {
 let state = {}
 function startCV() {
   state = {}
-  showTextChoice(parseInt(Choice))
+  showTextChoice(1)
 }
 
 function showTextChoice(textChoiceIndex) {
